@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local env
+.env
+.env.*
+
+# Unrelated local projects/artifacts
+Counterfactual-XAI-Verifier/
+iphone-japanese-voice-app/
+quiz-app/
+screenshots/
+_tmp_NaverReservationMacro/
+
+# Keep only the latest 3-class final model under outputs
+outputs/**
+!outputs/kcelectra_hate_3class_330/
+outputs/kcelectra_hate_3class_330/**
+!outputs/kcelectra_hate_3class_330/final_model/
+!outputs/kcelectra_hate_3class_330/final_model/**
+
